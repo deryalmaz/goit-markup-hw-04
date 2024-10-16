@@ -181,6 +181,9 @@ body {
 .button-sec:focus {
   background-color: #404bbf;
 }
+
+
+
 .visually-hidden{
   position: absolute;
   width: 1px;
@@ -224,6 +227,16 @@ body {
 .features-of-website .features-of-website-list-title{
   margin-bottom:8px;
 
+}
+.section-2-icon-backgrounds {
+  display: flex;
+  gap: 30px;
+}
+
+.section-2-icons {
+  margin-bottom: 10px;
+  border: 1px, solid #8e8f99;
+  border-radius: 2%;
 }
 
 .our-team{
