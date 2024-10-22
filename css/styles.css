@@ -197,6 +197,17 @@ body {
   overflow: hidden;
   } 
 
+  .features-of-website-list-svgs {
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    background-color: #F4F4FD;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;;
+  }
+
 .features-of-website-list {
   display: flex;
   gap: 24px;
@@ -227,16 +238,6 @@ body {
 .features-of-website .features-of-website-list-title{
   margin-bottom:8px;
 
-}
-.section-2-icon-backgrounds {
-  display: flex;
-  gap: 30px;
-}
-
-.section-2-icons {
-  margin-bottom: 10px;
-  border: 1px, solid #8e8f99;
-  border-radius: 2%;
 }
 
 .our-team{
@@ -292,6 +293,19 @@ text-align: center;
   font-size:16px;
   line-height:1.5em;
   letter-spacing: 2%;
+}
+.social-icons-list {
+  display:flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding:16px 16px 0 16px;
+ 
+}
+
+.social-icon :hover,
+.social-icon :focus{
+  --color1:#31d0aa;
+  transition: --color1 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio {
