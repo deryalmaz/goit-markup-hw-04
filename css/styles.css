@@ -365,6 +365,7 @@ text-align: center;
   color: #ffffff;
   height: 312px;
   padding: 100px 0;
+  align-items: flex-start;
 }
 
 .footer-logo {
@@ -391,5 +392,19 @@ text-align: center;
   letter-spacing: 2%;
   max-width: 264px;
   color: #f4f4fd;
-  max-width: 264px'
+  max-width: 264px;
+}
+.logo-text{
+  display: inline-block;
+  width: 264px;
+}
+.social-media-footer{
+  display:inline-block;
+  margin-left: 120px;
+}
+.social-icons-list-footer{
+  display:flex;
+  justify-content: space-between;
+  padding-top:16px;
+  gap:16px;
 }
